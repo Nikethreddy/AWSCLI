@@ -1,3 +1,0 @@
-openjdk 21.0.8 2025-07-15
-OpenJDK Runtime Environment (build 21.0.8+9-Debian-1)
-OpenJDK 64-Bit Server VM (build 21.0.8+9-Debian-1, mixed mode, sharing)
