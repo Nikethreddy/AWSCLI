@@ -1,3 +1,6 @@
+clone : 
+git clone  -b <Branchname> <url>
+
 #Terraform updates
 # install linux
 # link https://developer.hashicorp.com/terraform/install
