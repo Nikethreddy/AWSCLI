@@ -8,9 +8,9 @@ git switch main
 echo"git Done"
 echo"check workinf dir "
 cd Jenkins2025-project1.git
-mvn clean
-echo"mvn clean Done"
-mvn compile
-echo"mvn compile Done"
-mvn package
-echo"mvn package Done"
+#mvn clean
+#echo"mvn clean Done"
+#mvn compile
+#echo"mvn compile Done"
+#mvn package
+#echo"mvn package Done"
