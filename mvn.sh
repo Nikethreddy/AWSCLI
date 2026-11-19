@@ -1,6 +1,6 @@
 #Maven build for two projects
-sudo apt update && sudo apt install maven
-echo"mvn install Done"
+#sudo apt update && sudo apt install maven
+#echo"mvn install Done"
 echo"git configuring"
 git clone https://github.com/Nikethreddy/Jenkins2025-project1.git
 git branch
