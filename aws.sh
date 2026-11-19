@@ -9,4 +9,8 @@ echo "checK EC2 all status"
 aws s3 ls
 aws s3 cp aws.sh s3://ec2key-jenkins/AWSCLI/
 echo "s3 upload done"
-
+aws s3 cp dotnet.sh s3://ec2key-jenkins/AWSCLI/
+echo "s3 upload done"
+aws s3 cp *.sh s3://ec2key-jenkins/AWSCLI/
+echo "s3 upload done"
+aws s3 ls s3://ec2key-jenkins/AWSCLI/
