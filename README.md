@@ -8,5 +8,9 @@ sudo apt update && sudo apt install terraform
 # configure AWS
 steps :
 1-terraform init
-2-terraform plan
-3-terraform apply
+2-terraform plan   // dry run
+3-teeraform show
+4-teeraform state list
+5-terraform apply
+
+
