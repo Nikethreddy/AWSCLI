@@ -1,7 +1,9 @@
 #Terraform updates
 # install linux
 # link https://developer.hashicorp.com/terraform/install
-check 
+check  # commands.txt file
+
+
 
 
 
