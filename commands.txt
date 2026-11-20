@@ -1,0 +1,20 @@
+#commands 
+terraform Validate     // check valid 
+Terraform plan        // dry run  +create   - Destroy   - update   -/+ Replace 
+terraform apply      //infrastructure in your cloud account & result(terraform.tfstate)
+terraform show      // show data 
+terraform state list   // deployed list
+terraform destroy      // delete resources 
+
+
+# Files 
+Main.tf  // Resources
+  Variables.tf  // Declarations ( declare input variables)
+  terraform.tfvars   // values  ( assign actual values)
+
+#terraform workspace list:
+  create a workspace for DEV , PROD , TEST ...
+  After command - terraform apply  success it will  create a (terraform.tfstate) file 
+
+
+  
