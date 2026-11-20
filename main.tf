@@ -2,8 +2,10 @@ provider "aws" {
   region     = var.aws_region
 }
 terraform {
-Backend "s3" {
-Bucket = "terraform-b-s3"
+backend "s3" {
+bucket = "terraform-b-s3"
+key = "terraform.tfstate"
+region = "ap-south-1"
 }
 }
 
